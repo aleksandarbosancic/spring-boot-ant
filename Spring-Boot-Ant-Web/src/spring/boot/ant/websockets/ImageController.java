@@ -4,7 +4,7 @@
  * @author      original: abo, last edit: $Author$
  * @version     $Id$
  */
-package spring.boot.ant;
+package spring.boot.ant.websockets;
 
 import java.io.IOException;
 import java.util.Base64;

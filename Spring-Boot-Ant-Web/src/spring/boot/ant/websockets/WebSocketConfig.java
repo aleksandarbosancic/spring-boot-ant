@@ -1,4 +1,4 @@
-package spring.boot.ant;
+package spring.boot.ant.websockets;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
@@ -21,8 +21,8 @@ import org.springframework.web.socket.handler.TextWebSocketHandler;
 import org.springframework.web.socket.server.support.HttpSessionHandshakeInterceptor;
 
 @Configuration
-@EnableWebSocketMessageBroker
 @EnableWebSocket
+@EnableWebSocketMessageBroker
 public class WebSocketConfig extends AbstractWebSocketMessageBrokerConfigurer {
 
     @Autowired

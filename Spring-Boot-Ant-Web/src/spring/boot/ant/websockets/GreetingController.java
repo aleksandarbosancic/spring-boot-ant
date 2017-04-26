@@ -1,4 +1,4 @@
-package spring.boot.ant;
+package spring.boot.ant.websockets;
 
 import spring.boot.ant.models.HelloMessage;
 import spring.boot.ant.models.Greeting;
