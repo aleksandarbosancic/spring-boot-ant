@@ -71,11 +71,22 @@
 
     -->
     
-    <target name="-post-jar">
+    <target name="-post-jar"> 
         <echo message="post jar...." />
         <copy todir="dist/config">
             <fileset dir="resources/config"/>
         </copy>
+        
+<!--        <war destfile="myapp.war" needxmlfile="false">
+            <lib dir="dist/lib">
+                <exclude name="*jetty*"/>
+                <exclude name="websocket-*"/>
+            </lib>
+            <classes dir="build/classes"/>
+        </war>-->
+        
     </target>
+    
+    
     
 </project>

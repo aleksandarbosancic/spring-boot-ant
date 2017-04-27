@@ -21,7 +21,7 @@ import spring.boot.ant.models.Session;
 @Component
 public class SessionService extends BaseService
 {
-    final Logger LOGGER = Logger.getLogger(SessionService.class.getName());
+    static final Logger LOGGER = Logger.getLogger(SessionService.class.getName());
     
     public List<Session> getSessions()
     {

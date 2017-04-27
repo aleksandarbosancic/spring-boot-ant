@@ -16,10 +16,10 @@ import org.springframework.stereotype.Controller;
 import spring.boot.ant.models.HelloMessage;
 
 @Controller
-public class ImageController
+public class ImageWSController
 {
 
-    private final static Logger LOGGER = Logger.getLogger(ImageController.class.getName());
+    private final static Logger LOGGER = Logger.getLogger(ImageWSController.class.getName());
 
 //    @MessageMapping("/images")
 //    @SendTo("/topic/images")
